@@ -1,0 +1,11 @@
+
+    1.  Node JS là gì?
+        -   Trước đây ở server chỉ có thể code bằng C++, Java, Python, Php. Javascript chỉ có hoạt động được trên browser (phía client)
+        -   Node JS là môi trường để có thể code Javascript ở phía Server. Node thông qua engineV8 để có thể biên dịch từ JS sang C++, rồi
+        từ đó tiếp tục biên dịch về ngôn ngữ máy.
+        -   Học NodeJS không phải là code trên nodeJS mà là học cách sử dụng các thư viện JS
+        để có thể hoạt động trên môi trường NodeJS server.
+
+    2.  Cài đặt:
+        -   nodejs + npm
+        -   express: npm install --save-exact express@4.17.1
