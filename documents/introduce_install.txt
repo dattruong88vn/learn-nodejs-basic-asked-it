@@ -12,3 +12,9 @@
 
     3. ExpressJS:
         - Expressjs là một framework được xây dựng trên nền tảng của Nodejs
+
+    4. Global variables:
+        -   __dirname: đường dẫn thư mục đến file khi start server.
+            +   Ví dụ: file start là server.JS
+                *   Nếu nằm ở root (ngoài thư mục src): /
+                *   Nếu nằm trong thư mục src: /src

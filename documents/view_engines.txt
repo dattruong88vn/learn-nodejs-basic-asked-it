@@ -1,0 +1,9 @@
+
+    1.  View Engines là gì?
+        -   View engine chính là công cụ giúp chúng ta:
+            +   Viết code HTML một cách ngắn gọn và đơn giản hơn cách thông thường 
+            +   Có thể sử dụng lại. 
+            +   Có thể đưa dữ liệu vào từ phía server và render ra đoạn HTML cuối cùng. 
+
+    2. Cài đặt EJS:
+        -   Câu lệnh: npm install --save-exact ejs@3.1.6
