@@ -10,11 +10,27 @@
         -   nodejs + npm
         -   express: npm install --save-exact express@4.17.1
 
-    3. ExpressJS:
+    3.  ExpressJS:
         - Expressjs là một framework được xây dựng trên nền tảng của Nodejs
 
-    4. Global variables:
+    4.  Global variables:
         -   __dirname: đường dẫn thư mục đến file khi start server.
             +   Ví dụ: file start là server.JS
                 *   Nếu nằm ở root (ngoài thư mục src): /
                 *   Nếu nằm trong thư mục src: /src
+
+
+**********************************************************
+Video 8:
+
+    1.  ENV file:
+        -   Cài package: npm i --save-exact dotenv@10.0.0
+        -   Có thể tạo file .env và truy cập các biến trong đó thông qua: process.env.*
+
+    2.  Static file:
+        -   Là các file cho phép phía client có thể truy cập như image, css, js.
+        -   Quy định thư mục public chứa các static file:
+            app.use(express.static('public'))
+
+    3.  Development auto reload:
+        -   Cài đặt: nodemon
