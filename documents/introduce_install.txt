@@ -34,3 +34,11 @@ Video 8:
 
     3.  Development auto reload:
         -   Cài đặt: nodemon
+
+Video 9: Route và MVC
+
+    9.1. Router
+        -   Dùng express.Router() để tạo các tiền tố cho Route
+        -   Ví dụ: "api/v1" ...
+        
+    
