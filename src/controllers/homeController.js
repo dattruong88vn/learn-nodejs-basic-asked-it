@@ -5,6 +5,6 @@ export const getHomePage = (req, res) => {
 
   connectionDB.query("SELECT * FROM `users`", function (err, results, fields) {
     data = JSON.parse(JSON.stringify(results));
-    res.render("index.ejs", { data: JSON.stringify(data) });
+    res.render("index.ejs", { dataUser: data });
   });
 };
